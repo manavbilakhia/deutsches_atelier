@@ -1,0 +1,129 @@
+
+.has-feedback .form-control-feedback{
+	top:0;
+}
+.navbar-flat{
+	border-radius:0px;
+}
+.navbar-top{
+	margin-bottom:0px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	margin: 0 50px;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .card-lg{
+	  min-height:450px;
+  }
+}
+.main-footer{
+	color:#fff !important;
+	text-decoration:none;
+	padding:15px;
+	background-color:gray;
+}
+.main-footer a{
+	color:#fff !important;
+	text-decoration:none;
+	
+}
+.card{
+	border:1px solid #c3c3c3;
+	padding:10px;
+	-webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.25);
+-moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.25);
+box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.25);
+	
+}
+.card div{
+	padding:5px;
+}
+
+.flat{
+	border-radius:0px;
+}
+.box{
+	padding: 0px !important;
+	border:1px solid #c3c3c3;
+	
+}
+.box .box-header{
+	height:35px;
+	background-color:#c3c3c3;
+}
+.center{
+	display:block;
+	margin: 0 auto;
+}
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header{
+	text-align:center;
+}
+a{
+	text-decoration:none !important;
+}
+.content{
+	padding:15px;
+}
+.required{
+	color:orangered;
+}
+.border-bottom{
+	border-bottom:1px #c9c9c9 solid;	
+}
+.border-top{
+	border-top:1px #c9c9c9 solid;	
+}
+.border-left{
+	border-left:1px #c9c9c9 solid;	
+}
+.border-right{
+	border-right:1px #c9c9c9 solid;	
+}
+.callout {
+  padding: 20px !important;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+border-radius: 3px;}
+.callout>h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+.callout>p:last-child {
+    margin-bottom: 0;
+  }
+  /* code { */
+    /* border-radius: 3px; */
+  /* } */
+  /* & + .bs-callout { */
+    /* margin-top: -5px; */
+  /* } */
+/* } */
+  .callout-primary {
+    border-left-color: #428bca;
+  }
+  pre {
+    text-align: left;
+    white-space: pre-line;
+	border-radius:0px;
+  }
+  .title{
+	  font-size:16px;
+	  padding-top:5px;
+	  padding-left:5px;
+  }
+  .alert-success{
+	background-color: #3c763d;
+    border-color: #3c763d;
+	color:#fff;
+  }
+  .alert-danger{
+	background-color: #c90404;
+    border-color: #9a3b3b;
+	color:#fff;
+  }
